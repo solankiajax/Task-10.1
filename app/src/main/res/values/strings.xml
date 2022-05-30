@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Truck Sharing App</string>
+    <string-array name="options">
+        <item>Home</item>
+        <item>Account</item>
+        <item>My Orders</item>
+    </string-array>
+    <string name="user_name">xxxx</string>
+    <string name="user_location">xxxx</string>
+    <string name="user_date">xxxx</string>
+    <string name="order_id">xxxx</string>
+    <string name="sender_username">xxxx</string>
+    <string name="sender_pick_up_time">xxxx</string>
+    <string name="receiver_username">xxxx</string>
+    <string name="receiver_drop_of_time">22:00 hrs</string>
+    <string name="card_weight">xxxx</string>
+    <string name="card_type">xxxx</string>
+    <string name="card_width">xxxx</string>
+    <string name="card_height">xxxx</string>
+    <string name="card_length">xxxx</string>
+    <string name="card_quantity">Quantity: 20</string>
+    <string name="places_api_key">AIzaSyDZTzAQgqqunZB7ygymfJchE850PKbq8NM</string>
+    <string name="maps_api_key">AIzaSyAWxTjWICSZbflbnyfR6uhvlUfNKwy17n4</string>
+    <string name="paypal_client_key">AXk4PT97Qa2JZhJzF8GY7ZGADUCoora0fMcXyZibk7r6gORgM3EHht-S7GdoqhuAS07GnyAvm4cNJfAy</string>
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:clickable="true">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="226dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Furniture"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:onClick="checkBtn"
+            android:text="Furniture"
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/dryGoods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn"
+            android:text="Dry Goods"
+            android:textSize="20sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn"
+            android:text="Food"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/buildingMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn"
+            android:text="Building Material"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Good Type:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Weight and dimension: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="344dp"
+        android:text="Vehicle type: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="448dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/width"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="448dp"
+        android:ems="10"
+        android:hint="Width"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/length"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="388dp"
+        android:ems="10"
+        android:hint="Length"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="388dp"
+        android:ems="10"
+        android:hint="Height"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="242dp"
+        android:layout_height="194dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/truck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn2"
+            android:text="Truck"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/van"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn2"
+            android:text="Van"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/refrigeratedTruck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn2"
+            android:text="Refrigerated Truck"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/miniTruck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBtn2"
+            android:text="Mini-Truck"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/createOrderBtn"
+        android:layout_width="197dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        android:text="Create order"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/otherGoodTypesText"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="Other"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:onClick="checkBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:focusableInTouchMode = "false"/>
+
+    <EditText
+        android:id="@+id/otherVehicleType"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="96dp"
+        android:ems="10"
+        android:hint="Other"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:onClick="checkBtn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:focusableInTouchMode = "false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
